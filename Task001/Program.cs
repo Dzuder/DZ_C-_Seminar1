@@ -6,9 +6,9 @@ int b = int.Parse(ReadLine()!);
 
 if (a > b)
 {
-    WriteLine("The largest number " + a);
+    WriteLine("The largest number " + a + ", the smallest- " + b);
 }
 else 
 {
-        WriteLine( "The largest number " + b);
+        WriteLine( "The largest number " + b + ", the smallest- " + a);
 }
